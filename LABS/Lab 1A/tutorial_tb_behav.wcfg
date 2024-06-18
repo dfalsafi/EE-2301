@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tutorial_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tutorial_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="400000001fs"></ZoomEndTime>
+      <Cursor1Time time="104225000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="175"></NameColumnWidth>
+      <ValueColumnWidth column_width="146"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="5" />
+   <wvobject fp_name="/tutorial_tb/inputX" type="logic">
+      <obj_property name="ElementShortName">inputX</obj_property>
+      <obj_property name="ObjectShortName">inputX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tutorial_tb/inputY" type="logic">
+      <obj_property name="ElementShortName">inputY</obj_property>
+      <obj_property name="ObjectShortName">inputY</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tutorial_tb/inputZ" type="logic">
+      <obj_property name="ElementShortName">inputZ</obj_property>
+      <obj_property name="ObjectShortName">inputZ</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tutorial_tb/Sum" type="logic">
+      <obj_property name="ElementShortName">Sum</obj_property>
+      <obj_property name="ObjectShortName">Sum</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tutorial_tb/CarryOut" type="logic">
+      <obj_property name="ElementShortName">CarryOut</obj_property>
+      <obj_property name="ObjectShortName">CarryOut</obj_property>
+   </wvobject>
+</wave_config>
