@@ -1,0 +1,27 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Thu Jun 20 09:24:06 2024
+# Process ID: 17500
+# Current directory: C:/Users/falsa003/Desktop/Danyal_EE2301_Lab/Lab 2 official
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent9272 C:\Users\falsa003\Desktop\Danyal_EE2301_Lab\Lab 2 official\Lab 2 official.xpr
+# Log file: C:/Users/falsa003/Desktop/Danyal_EE2301_Lab/Lab 2 official/vivado.log
+# Journal file: C:/Users/falsa003/Desktop/Danyal_EE2301_Lab/Lab 2 official\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/falsa003/Desktop/Danyal_EE2301_Lab/Lab 2 official/Lab 2 official.xpr}
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+launch_runs impl_1 -jobs 4
+wait_on_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+open_hw
+connect_hw_server
+open_hw_target
+set_property PROGRAM.FILE {C:/Users/falsa003/Desktop/Danyal_EE2301_Lab/Lab 2 official/Lab 2 official.runs/impl_1/design_1_wrapper.bit} [get_hw_devices xc7a35t_0]
+current_hw_device [get_hw_devices xc7a35t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
