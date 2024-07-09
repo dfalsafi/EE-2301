@@ -1,0 +1,5 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/falsa003/Desktop/Danyal_EE2301_Lab/lab_5b/lab_5b.sim/sim_1/synth/func/xsim/lab5b_TB_func_synth.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module lab5b_Schem
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/falsa003/Desktop/Danyal_EE2301_Lab/lab_5b/lab_5b.srcs/sim_1/new/lab5_TB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module lab5b_TB
