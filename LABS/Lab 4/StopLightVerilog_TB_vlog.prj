@@ -1,0 +1,7 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"StopLightVerilog_TB_time_impl.v" \
+"../../../../../lab3imp.srcs/sim_1/new/StopLightVerilog_TB.v" \
+
+# Do not sort compile order
+nosort
