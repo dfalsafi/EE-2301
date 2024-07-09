@@ -1,7 +1,0 @@
-Vivado Simulator 2019.1
-Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
-Running: C:/Xilinx/Vivado/2019.1/bin/unwrapped/win64.o/xelab.exe -wto fd7b206603de44aea8df8d30a7fdec20 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L secureip --snapshot lab5b_TB_func_synth xil_defaultlib.lab5b_TB xil_defaultlib.glbl -log elaborate.log 
-Using 2 slave threads.
-Starting static elaboration
-ERROR: [VRFC 10-3427] illegal recursive design instantiation, instance name 'ins' [C:/Users/falsa003/Desktop/Danyal_EE2301_Lab/lab_5b/lab_5b.srcs/sim_1/new/lab5_TB.v:16]
-ERROR: [XSIM 43-3322] Static elaboration of top level Verilog design unit(s) in library work failed.
