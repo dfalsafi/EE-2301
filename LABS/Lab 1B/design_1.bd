@@ -1,0 +1,112 @@
+{
+  "design": {
+    "design_info": {
+      "boundary_crc": "0xB54517ABB54517AB",
+      "device": "xc7a35tcpg236-1",
+      "name": "design_1",
+      "synth_flow_mode": "Hierarchical",
+      "tool_version": "2019.1",
+      "validated": "true"
+    },
+    "design_tree": {
+      "xup_xor2_0": "",
+      "xup_and2_0": "",
+      "xup_or2_0": "",
+      "xup_xor2_1": "",
+      "xup_and2_1": ""
+    },
+    "ports": {
+      "X": {
+        "direction": "I"
+      },
+      "Y": {
+        "direction": "I"
+      },
+      "Z": {
+        "direction": "I"
+      },
+      "OUT1": {
+        "direction": "O"
+      },
+      "OUT2": {
+        "direction": "O"
+      }
+    },
+    "components": {
+      "xup_xor2_0": {
+        "vlnv": "xilinx.com:xup:xup_xor2:1.0",
+        "xci_name": "design_1_xup_xor2_0_0"
+      },
+      "xup_and2_0": {
+        "vlnv": "xilinx.com:xup:xup_and2:1.0",
+        "xci_name": "design_1_xup_and2_0_0"
+      },
+      "xup_or2_0": {
+        "vlnv": "xilinx.com:xup:xup_or2:1.0",
+        "xci_name": "design_1_xup_or2_0_0"
+      },
+      "xup_xor2_1": {
+        "vlnv": "xilinx.com:xup:xup_xor2:1.0",
+        "xci_name": "design_1_xup_xor2_1_0"
+      },
+      "xup_and2_1": {
+        "vlnv": "xilinx.com:xup:xup_and2:1.0",
+        "xci_name": "design_1_xup_and2_1_0"
+      }
+    },
+    "nets": {
+      "b_0_1": {
+        "ports": [
+          "Y",
+          "xup_xor2_0/b",
+          "xup_and2_0/a"
+        ]
+      },
+      "a_0_1": {
+        "ports": [
+          "X",
+          "xup_xor2_0/a",
+          "xup_and2_0/b"
+        ]
+      },
+      "xup_and2_0_y": {
+        "ports": [
+          "xup_and2_0/y",
+          "xup_or2_0/a"
+        ]
+      },
+      "xup_xor2_0_y": {
+        "ports": [
+          "xup_xor2_0/y",
+          "xup_xor2_1/a",
+          "xup_and2_1/a"
+        ]
+      },
+      "b_0_2": {
+        "ports": [
+          "Z",
+          "xup_and2_1/b",
+          "xup_xor2_1/b"
+        ]
+      },
+      "xup_and2_1_y": {
+        "ports": [
+          "xup_and2_1/y",
+          "xup_or2_0/b"
+        ]
+      },
+      "xup_xor2_1_y": {
+        "ports": [
+          "xup_xor2_1/y",
+          "OUT1"
+        ]
+      },
+      "xup_or2_0_y": {
+        "ports": [
+          "xup_or2_0/y",
+          "OUT2"
+        ]
+      }
+    }
+  }
+}
