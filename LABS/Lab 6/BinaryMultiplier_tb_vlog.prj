@@ -1,0 +1,7 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"BinaryMultiplier_tb_time_synth.v" \
+"../../../../../lab 6.srcs/sim_1/new/BinaryMultiplier_tb.v" \
+
+# Do not sort compile order
+nosort
